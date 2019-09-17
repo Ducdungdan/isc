@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: isc
+server:
+  port: 9000
+
+isc:
+  database:
+    mongodb:
+      host: 127.0.01
+      port: 27017
+      username: admin
+      password: 123456
+      database-name: isc
