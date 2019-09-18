@@ -1,11 +1,11 @@
-package com.isc.config.database.mongodb;
+package com.isc.common.config.database.mongodb;
 
-import lombok.Getter;
+import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
-@Getter
-@Configuration
+@Data
+@Component
 @ConfigurationProperties(prefix = "isc.database.mongodb")
 public class MongoDBProperties {
 
@@ -14,6 +14,4 @@ public class MongoDBProperties {
     private String username;
     private String password;
     private String databaseName;
-
-
 }

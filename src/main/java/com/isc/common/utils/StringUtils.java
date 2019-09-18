@@ -1,7 +1,6 @@
-package com.isc.utils;
+package com.isc.common.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -13,8 +12,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import static com.isc.config.constant.RegexConstant.REGEX_VARIABLE_NAME_JAVA;
-import static com.isc.config.constant.StringFormatConstant.*;
+import static com.isc.common.config.constant.RegexConstant.REGEX_VARIABLE_NAME_JAVA;
+import static com.isc.common.config.constant.StringFormatConstant.*;
 import static java.util.stream.Collectors.toMap;
 
 public class StringUtils {
@@ -25,10 +24,10 @@ public class StringUtils {
     public static String fillDataToStringInterpolation(String stringInterpolation, Object... data) {
         Map<String, String> variable = extractVariable(stringInterpolation);
         Map<String, String> flattenData = flattenObjects(data);
-        AtomicReference<String> string = new AtomicReference<>("");
+        AtomicReference<String> string = new AtomicReference<>(stringInterpolation);
         variable.entrySet().stream().forEach(entry -> {
             String value = flattenData.getOrDefault(entry.getKey(), "");
-            string.set(stringInterpolation.replace(entry.getValue(), value));
+            string.set(string.get().replace(entry.getValue(), value));
         });
 
         return string.toString();

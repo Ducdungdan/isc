@@ -1,4 +1,4 @@
-package com.isc.config.constant;
+package com.isc.common.config.constant;
 
 public class StringFormatConstant {
     public static String SUB_KEY = "%s.%s";
