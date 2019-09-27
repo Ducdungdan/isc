@@ -99,7 +99,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<version>2.1.8.RELEASE</version>
-			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -246,18 +245,17 @@
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/java/com/isc/operation/resources/assets</directory>
+				<targetPath>static/admin/assets</targetPath>
 				<excludes>
-					<exclude>src/main/resources/assets/metronic/**</exclude>
+					<exclude>**/metronic/**</exclude>
 				</excludes>
 			</resource>
 			<resource>
-				<directory>src/main/java/com/isc/operation/resources</directory>
-				<targetPath>operation</targetPath>
-				<filtering>true</filtering>
-				<excludes>
-					<exclude>operation/assets/metronic/**</exclude>
-				</excludes>
+				<directory>src/main/java/com/isc/operation/resources/templates</directory>
+				<targetPath>views/freemarker/admin</targetPath>
 			</resource>
 		</resources>
 	</build>

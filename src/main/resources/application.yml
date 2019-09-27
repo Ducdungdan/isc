@@ -1,6 +1,13 @@
 spring:
   application:
     name: isc
+  freemarker:
+    suffix: .ftl
+    template-loader-path: classpath:/views/freemarker
+    cache: false
+  resources:
+    static-locations: classpath:/static
+
 server:
   port: 9000
 

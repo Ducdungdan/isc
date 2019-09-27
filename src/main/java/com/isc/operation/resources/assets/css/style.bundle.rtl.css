@@ -1625,6 +1625,9 @@ pre {
   .form-control::-webkit-input-placeholder {
     color: #a7abc3;
     opacity: 1; }
+  .form-control::-moz-placeholder {
+    color: #a7abc3;
+    opacity: 1; }
   .form-control:-ms-input-placeholder {
     color: #a7abc3;
     opacity: 1; }
@@ -3929,8 +3932,10 @@ input[type="button"].btn-block {
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
+    -moz-column-count: 3;
     column-count: 3;
     -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
     column-gap: 1.25rem;
     orphans: 1;
     widows: 1; }
@@ -26067,6 +26072,7 @@ body.swal2-height-auto {
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
+    -webkit-text-orientation: mixed;
     text-orientation: mixed;
     font-size: 1.3rem;
     font-weight: 700;

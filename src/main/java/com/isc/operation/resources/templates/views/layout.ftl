@@ -12,7 +12,7 @@
 
 			<!--[html-partial:include:{"file":"partials/_header/base.html"}]/-->
 			<#include "../partials/_header/base.ftl">
-			<div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
+			<div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
 
 				<!--[html-partial:include:{"file":"partials/_subheader/subheader-v2.html"}]/-->
 				<#include "../partials/_subheader/subheader-v2.ftl">

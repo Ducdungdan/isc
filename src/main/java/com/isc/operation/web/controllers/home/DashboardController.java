@@ -13,6 +13,6 @@ public class DashboardController {
 
     @GetMapping("/admin/dashboard")
     public String getPostDetail() {
-        return "views/index";
+        return "admin/views/index";
     }
 }

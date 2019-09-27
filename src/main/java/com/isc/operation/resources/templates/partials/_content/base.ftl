@@ -585,7 +585,7 @@
 					<div class="kt-widget19__wrapper">
 						<div class="kt-widget19__content">
 							<div class="kt-widget19__userpic">
-								<img src="assets/media//users/user1.jpg" alt="">
+								<img src="assets/media/users/user1.jpg" alt="">
 							</div>
 							<div class="kt-widget19__info">
 								<a href="#" class="kt-widget19__username">
@@ -663,7 +663,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product27.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product27.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
@@ -694,7 +694,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product22.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product22.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
@@ -725,7 +725,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product15.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product15.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
@@ -760,7 +760,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product10.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product10.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
@@ -791,7 +791,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product11.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product11.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
@@ -822,7 +822,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product6.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product6.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
@@ -857,7 +857,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product11.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product11.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
@@ -888,7 +888,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product6.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product6.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
@@ -919,7 +919,7 @@
 								<div class="kt-widget5__item">
 									<div class="kt-widget5__content">
 										<div class="kt-widget5__pic">
-											<img class="kt-widget7__img" src="assets/media//products/product10.jpg" alt="">
+											<img class="kt-widget7__img" src="assets/media/products/product10.jpg" alt="">
 										</div>
 										<div class="kt-widget5__section">
 											<a href="#" class="kt-widget5__title">
